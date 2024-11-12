@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formulir_data_mahasiswa"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Input Nama Mahasiswa -->
+    <EditText
+        android:id="@+id/idEdtNamaMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nama_mahasiswa"
+        android:importantForAutofill="no"
+        android:padding="12dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Input NIM Mahasiswa -->
+    <EditText
+        android:id="@+id/idEdtNIM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nim_mahasiswa"
+        android:importantForAutofill="no"
+        android:padding="12dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Input Jurusan Mahasiswa -->
+    <EditText
+        android:id="@+id/idEdtJurusan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/jurusan"
+        android:importantForAutofill="no"
+        android:padding="12dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Tombol Submit -->
+    <Button
+        android:id="@+id/idBtnSubmitMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tambahkan_mahasiswa"
+        android:textAllCaps="false"
+        android:padding="12dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">mahasiswa</string>
+    <string name="formulir_data_mahasiswa">Formulir Data Mahasiswa</string>
+    <string name="nama_mahasiswa">Nama Mahasiswa</string>
+    <string name="nim_mahasiswa">NIM Mahasiswa</string>
+    <string name="jurusan">Jurusan</string>
+    <string name="tambahkan_mahasiswa">Tambahkan Mahasiswa</string>
+</resources>
